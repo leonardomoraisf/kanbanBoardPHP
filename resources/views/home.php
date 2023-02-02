@@ -62,7 +62,7 @@
             <div class="actions">
                 <button class="addbutt"><i class="fa-solid fa-plus"></i> Add new</button>
             </div>
-            {{errorStatus}}
+            {{statusError}}
         </form>
     </menu>
     {{scriptlinks}}
