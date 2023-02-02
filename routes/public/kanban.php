@@ -11,3 +11,12 @@ $router->get('/',[
         return new Response(200,Public\Home::getHome($request));
     }
 ]);
+
+// POST
+$router->post('/',[
+    'middlewares' => [
+    ],
+    function($request){
+        return new Response(200,Public\Home::setTask($request));
+    }
+]);
